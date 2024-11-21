@@ -35,7 +35,7 @@ function WelcomeScreen({navigation}): React.JSX.Element {
                     style={[{
                         backgroundColor: isDarkMode ? Colors.black : Colors.white,
                     }, styles.sectionContainer]}>
-                    <Text style={styles.welcomeText} > Welcome to skateboard </Text>
+                    <Text style={styles.welcomeText} > Welcome to skateboard project </Text>
                     <Button
                         title="Go to Login"
                         onPress={() =>{
